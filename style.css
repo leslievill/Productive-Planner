@@ -26,6 +26,15 @@ textarea{
   white-space: pre-wrap;
 }
 
+.input-group-text {
+  border: none;
+}
+
+.form-control {
+  border: none;
+}
+
+
 .time-block{
   text-align: center;
   border-radius: 15px;
@@ -41,6 +50,9 @@ textarea{
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  width: 100px;
+  text-align: center;
+  padding: 20px;
 }
 
 .past {
@@ -49,20 +61,20 @@ textarea{
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: rgb(233, 148, 152);
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #b2e0b2;
   color: white;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 1px solid white;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #b88ee0;
   color: white;
 }
 
